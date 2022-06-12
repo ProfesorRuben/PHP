@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    El numero de horas trabajadas es: 
-    <?php echo $_GET['horas']*12?>
+    Su salario es: 
+    <?php echo $_GET['horas']*12 ?>
 </body>
 </html>
