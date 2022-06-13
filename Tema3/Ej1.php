@@ -1,5 +1,17 @@
-<?php 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="brown">
 
+<img src="../Tema3/cilindro.png">
+
+
+<?php 
 /* EJERCICIO Nº 1: Diseñar un formulario web que pida la altura y el diámetro de un 
 cilindro. Una vez el usuario introduzca los datos y pulse el botón calcular, deberá 
 calcularse el volumen del cilindro y mostrarse el resultado en el navegador. 
@@ -13,6 +25,10 @@ pi(); // 3.1415926535898
 M_PI; // 3.1415926535898 */
 
 echo "Cálculo del volumen del cilindro: ";
-echo pi()*$_GET['altura']*pow($_GET['diametro'], 2) 
+echo pi()*$_GET['altura']*pow($_GET['diametro'], 2) ?>
 
-?>
+
+
+</body>
+</html>
+
