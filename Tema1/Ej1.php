@@ -12,7 +12,8 @@
     /*Ejercicio 1
 Escribe un programa que muestre tu nombre por pantalla. Utiliza código PHP.*/
 
-    echo "Me llamo Ruben";
+    echo "Me llamo Ruben Gonzalez";
     ?>
+    
 </body>
 </html>

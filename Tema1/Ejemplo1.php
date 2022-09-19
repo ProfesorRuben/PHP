@@ -1,16 +1,13 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <title>Problema</title>
+<meta charset="UTF-8">
 </head>
-
 <body>
-
-  <?php
-  echo "<b><u>";?>Mi nombre es Romualdo.<?php echo "</u></b></br>";
-  echo "Tengo 20 años.";
-  ?>
-
+<?php
+$numero = 20;
+$palabra = "hola";
+print_r(get_defined_vars());
+?>
 </body>
-
 </html>
