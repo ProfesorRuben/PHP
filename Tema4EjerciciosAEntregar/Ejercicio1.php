@@ -30,15 +30,15 @@
     <h1>Averigua la imagen escondida detrás del mosaico</h1>
     <p>Pulsa en cada cuadrado para ver la imágen que esconde, y cuando tengas claro de que imagen se trata con el menor número posible de consultas, escribe su nombre y comprueba si has acertado.</p>
     <table border=1 cellspacing=0 cellpadding=0 bordercolor="red">
-    <tr><td><img src="<?php echo ($num==1)?"imagen/1.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==2)?"imagen/2.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==3)?"imagen/3.jpg":"imagen/oculto.jpg" ?>"></td></tr>
-    <tr><td><img src="<?php echo ($num==4)?"imagen/4.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==5)?"imagen/5.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==6)?"imagen/6.jpg":"imagen/oculto.jpg" ?>"></td></tr>
-    <tr><td><img src="<?php echo ($num==7)?"imagen/7.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==8)?"imagen/8.jpg":"imagen/oculto.jpg" ?>"></td>
-        <td><img src="<?php echo ($num==9)?"imagen/9.jpg":"imagen/oculto.jpg" ?>"></td></tr>
+    <tr><td><img src="<?php echo ($num==1)?"../imagen/1.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==2)?"../imagen/2.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==3)?"../imagen/3.jpg":"../imagen/oculto.jpg" ?>"></td></tr>
+    <tr><td><img src="<?php echo ($num==4)?"../imagen/4.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==5)?"../imagen/5.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==6)?"../imagen/6.jpg":"../imagen/oculto.jpg" ?>"></td></tr>
+    <tr><td><img src="<?php echo ($num==7)?"../imagen/7.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==8)?"../imagen/8.jpg":"../imagen/oculto.jpg" ?>"></td>
+        <td><img src="<?php echo ($num==9)?"../imagen/9.jpg":"../imagen/oculto.jpg" ?>"></td></tr>
     </table>
     <?php 
     }
