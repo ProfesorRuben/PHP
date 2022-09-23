@@ -16,7 +16,7 @@
         if ($_REQUEST['palabra']=="gollum") {
     ?>
     <h1>ENHORABUENA has acertado, la imagen oculta era gollum</h1>
-    <img src="imagen/gollum.jpg" alt="imagen de Gollum">
+    <img src="../imagen/gollum.jpg" alt="imagen de Gollum">
     <?php 
         }else {
     ?>

@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-
+va antes
     <table border="1">
         <tr>
             <th></th><th>N1</th><th>N2</th><th>N3</th><th>N4</th><th>N5</th><th>N6</th><th>SERIE</th>
@@ -30,5 +30,6 @@
     ?>
         </tr>
     </table>
+    va despues
 </body>
 </html>
