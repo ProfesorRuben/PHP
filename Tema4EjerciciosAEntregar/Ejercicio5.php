@@ -19,9 +19,9 @@
         echo "<tr>";
         for ($j=1; $j <= 10; $j++) {
             if ($n==$sel) {
-                echo "<td><a href='Ejercicio2.php?seleccion=$n'><img width='70' height='70' src='imagen/ojoabierto.png'></td>";
+                echo "<td><a href='Ejercicio5.php?seleccion=$n'><img width='70' height='70' src='../imagen/ojoabierto.png'></td>";
             }else {
-                echo "<td><a href='Ejercicio2.php?seleccion=$n'><img width='70' height='70'  src='imagen/ojocerrado.png'></td>";
+                echo "<td><a href='Ejercicio5.php?seleccion=$n'><img width='70' height='70'  src='../imagen/ojocerrado.png'></td>";
             }
             $n++;
         }

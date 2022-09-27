@@ -12,7 +12,7 @@
     <?php
     $phpVariable = 1;
     ?>
-   <form action="EjemploVariableRecibidaPorGet.php" method="get">
+   <form action="Ejemplo2VariableRecibidaPorGet.php" method="get">
     <input type="hidden" name="phpVariable" value="<?=$phpVariable?>">
         <input type="submit" value="Envío de variable">
     </form>

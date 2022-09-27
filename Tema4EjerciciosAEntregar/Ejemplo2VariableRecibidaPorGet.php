@@ -10,11 +10,10 @@
 
 <body>
     <?php
-  /*   $phpVariable = $_GET['phpVariable'];
-
-    echo $phpVariable;
-    $phpVariable++; */
-
+        
+echo $phpVariable = $_GET['phpVariable'];
+$phpVariable++;
+echo $phpVariable;
     ?>
     <form action="Ejemplo2Final.php" method="get">
         <input type="hidden" name="phpVariable" value="<?= $phpVariable ?>">
