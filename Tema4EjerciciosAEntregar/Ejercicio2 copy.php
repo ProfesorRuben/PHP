@@ -10,12 +10,12 @@
 <body>
     <h1>Resultado de tu apuesta...</h1>
     <?php
-    $n1 = rand(1, 49);
-    $n2 = rand(1, 49);
-    $n3 = rand(1, 49);
-    $n4 = rand(1, 49);
-    $n5 = rand(1, 49);
-    $n6 = rand(1, 49);
+    $n1 = rand(1, 10);
+    $n2 = rand(1, 10);
+    $n3 = rand(1, 10);
+    $n4 = rand(1, 10);
+    $n5 = rand(1, 10);
+    $n6 = rand(1, 10);
     $serie = rand(1, 999);
     echo "<table border=1 cellspacing=0 cellpadding=0 bordercolor='green'>";
     echo "<tr><th colspan='7'><h3>Combinación ganadora</h3></th></td>";
