@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
 echo $phpVariable = $_GET['phpVariable'];
 ?>
 </body>
