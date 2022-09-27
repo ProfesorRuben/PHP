@@ -18,6 +18,5 @@ $phpVariable++;
 <input type="hidden" name="phpVariable" value="<?=$phpVariable?>">
     <input type="submit" value="Envío de variable">
 </form>
-?>
 </body>
 </html>
