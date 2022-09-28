@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     if (isset($_REQUEST['num'])) {
-        echo "<meta http-equiv='Refresh' content='2;url=Ejercicio1 copy.html'>";
+        echo "<meta http-equiv='Refresh' content='22;url=Ejercicio1 copy.html'>";
     }
     ?>
     <title>Document</title>

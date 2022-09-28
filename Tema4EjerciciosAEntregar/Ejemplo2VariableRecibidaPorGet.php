@@ -13,6 +13,8 @@
         
 echo $phpVariable = $_GET['phpVariable'];
 $phpVariable++;
+?><br><br>
+<?php
 echo $phpVariable;
     ?>
     <form action="Ejemplo2Final.php" method="get">

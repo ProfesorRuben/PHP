@@ -14,9 +14,9 @@
            for ($j=1; $j <= 7; $j++) {
     ?>
     <tr>
-    <td>Bloque <?= $i ?></td>
-    <td>Piso <?= $j ?></td>
-    <td><form action="Ejercicio4-2.php" method="POST">
+    <td>Bloque <?=$i ?></td>
+    <td>Piso <?=$j ?></td>
+    <td><form action="Ejercicio4-2.php" method="get">
         <input type="hidden" name="bloque" value="<?=$i?>">
         <input type="hidden" name="piso" value="<?=$j?>">
         <input type="submit" value="LLAMAR">

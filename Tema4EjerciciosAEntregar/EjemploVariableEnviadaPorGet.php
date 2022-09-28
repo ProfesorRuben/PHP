@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    $phpVariable = "Variable enviada";
+    echo $phpVariable = "Variable enviada";
     ?>
    <form action="EjemploVariableRecibidaPorGet.php" method="get">
     <input type="hidden" name="phpVariable" value="<?=$phpVariable?>">
