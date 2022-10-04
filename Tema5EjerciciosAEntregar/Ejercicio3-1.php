@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         table {
-            background-image: url("imagen/gollum.jpg");
+            background-image: url("../imagenestema5/gollum.jpg");
             background-size: 500px 500px;
             width:500px;
             height:500px;

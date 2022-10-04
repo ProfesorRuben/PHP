@@ -26,11 +26,11 @@
 
         echo "<br>Valor 17: ",$valor,"<br>Valor 88: ",$valor2;
 
-        if (in_array('17',$temp, true)) {
+        if (in_array(17,$temp, true)) {
             echo "Se encontró el valor 17\n";
         }
 
-        if (in_array('88',$temp, false)) {
+        if (!in_array(88,$temp, true)) {
             echo "No se encontró el valor 88\n";
         }
     ?>

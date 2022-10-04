@@ -12,7 +12,7 @@
         if ($_REQUEST['palabra']=="gollum") {
     ?>
     <h1>ENHORABUENA has acertado con <?php echo 10-$intentos; ?> consultas, la imagen oculta era gollum</h1>
-    <img src="imagen/gollum.jpg" alt="imagen de Gollum">
+    <img src="../imagenestema5/gollum.jpg" alt="imagen de Gollum">
     <?php 
         }else {
     ?>
@@ -23,7 +23,7 @@
     }else if (isset($_REQUEST['perdido'])) {
     ?>
     <h1>Suerte para la próxima vez, la imagen oculta era gollum</h1>
-    <img src="imagen/gollum.jpg" alt="imagen de Gollum">
+    <img src="../imagenestema5/gollum.jpg" alt="imagen de Gollum">
     <?php 
     }
     ?>
