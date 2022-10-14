@@ -16,18 +16,34 @@ a cerrar. Usar la función explode() para pasar arrays como cadenas. -->
     <?php
     if (isset($_REQUEST['seleccion'])) {
         $sel=$_REQUEST['seleccion'];
+        
+        echo "Los números introducidos son (Usando la función REQUEST): ",$sel,"<br>";
+        
+
         $ojos=explode(',',$_REQUEST['ojos']);
         
+        echo"<br>Función explode:<br>";
+        foreach ($ojos as $n) {
+            echo $n, " ";
+        }
+
+
         $ojos[$sel]=($ojos[$sel]==0)?1:0;   
     }else {
         $ojos=array_fill(0,100,0);
     }
     $cadena=implode(',',$ojos);
+
+    echo "<br><br>Los números introducidos son (Usando la función implode): <br>",$cadena;
+   
+
+        
     $n=0; 
-    for ($i=0; $i < 10; $i++) { 
+    for ($i=0; $i < 10; $i++) {
         echo "<tr>";
         for ($j=0; $j < 10; $j++) {
-            echo "<td><a href='Ejercicio1.php?seleccion=$n&ojos=$cadena'><img width='70' height='70' src='../imagenestema5/ojo".(($ojos[$n]==1)?"abierto":"cerrado").".png'></td>";
+            echo "<td><a href='Ejercicio1.php?seleccion=$n&ojos=$cadena'><img width='70' height='70' src='../imagenestema5/ojo".
+            (($ojos[$n]==1)?"abierto":"cerrado").".png'></td>";
             $n++;
         }
         echo "</tr>";

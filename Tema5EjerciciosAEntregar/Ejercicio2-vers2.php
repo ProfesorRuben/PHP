@@ -8,7 +8,17 @@
 <?php 
 if (isset($_REQUEST['fin'])) {
 	echo "<hr><hr><hr><h1>Resumen del pedido</h1>";
+
+	/* Texto a array */
 	$pedido=unserialize(base64_decode($_REQUEST['pedido']));
+
+/* 	foreach ($pedido as $comida) {
+		for ($i=0; $i < count($comida) ; $i++) {
+			echo $comida[$i].", ";
+		}
+	}
+ */
+
 	foreach ($pedido as $comida) {
 		echo $comida[0]." con: ";
 		for ($i=1; $i < count($comida) ; $i++) {
@@ -26,7 +36,8 @@ if (!isset($_REQUEST['comida'])){
 }
 ?>
 <h3>Pizza</h3>
-<form action="Ejercicio2.php" method="post">
+<form action="Ejercicio2-vers2.php" method="post">
+<!-- Array a texto -->
 	<input type="hidden" name="pedido" value="<?=base64_encode(serialize($pedido))?>">
 	<input type="hidden" name="comida[]" value="pizza">
 	<input type="checkbox" name="comida[]" value="Jamon">Jamon<br>
@@ -36,7 +47,7 @@ if (!isset($_REQUEST['comida'])){
 </form>
 <hr>
 <h3>Hamburguesa</h3>
-<form action="Ejercicio2.php" method="post">
+<form action="Ejercicio2-vers2.php" method="post">
 	<input type="hidden" name="pedido" value="<?=base64_encode(serialize($pedido))?>">
 	<input type="hidden" name="comida[]" value="hamburguesa">
 	<input type="checkbox" name="comida[]" value="Lechuga">Lechuga<br>
@@ -46,7 +57,7 @@ if (!isset($_REQUEST['comida'])){
 </form>
 <hr>
 <h3>Perrito Caliente</h3>
-<form action="Ejercicio2.php" method="post">
+<form action="Ejercicio2-vers2.php" method="post">
 	<input type="hidden" name="pedido" value="<?=base64_encode(serialize($pedido))?>">
 	<input type="hidden" name="comida[]" value="perrito">
 	<input type="checkbox" name="comida[]" value="Lechuga">Lechuga<br>
@@ -55,7 +66,7 @@ if (!isset($_REQUEST['comida'])){
 	<input type="submit" value="Añadir al pedido">
 </form>
 <hr>
-<form action="Ejercicio2.php" method="post">
+<form action="Ejercicio2-vers2.php" method="post">
 	<input type="hidden" name="pedido" value="<?=base64_encode(serialize($pedido))?>">
 	<input type="submit" name="fin" value="FINALIZAR PEDIDO">
 </form>

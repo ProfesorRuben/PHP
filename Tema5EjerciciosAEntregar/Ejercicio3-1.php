@@ -31,7 +31,17 @@
     if (!isset($_REQUEST['intentos'])) {
         $intentos = 10;
         //for ($i=0; $i < 100; $i++) {$panel[]='oculto';}
+
+        /* Guarda la imagen oculta en cada casilla 
+        
         $panel=array_fill(0, 100, 'oculto');
+
+        */
+
+
+        $panel=array_fill(0, 100, 'oculto'); 
+
+        
     }else {
         $panel=unserialize($_REQUEST['panel']);
         $intentos = --$_REQUEST['intentos'];
